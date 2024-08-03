@@ -1,9 +1,150 @@
+
+/* External CSS File: style.css */
+
+/* ALL BODY */
 body {
-    padding-left:5em;
-    padding-right:5em;
-    background: #6397E0;
+    font-family: 'Arial', sans-serif; /* Fallback font: sans-serif */
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-    font-family: 'Times New Roman', Times, serif;
+/* HEADER */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+header img {
+    border-radius: 50%; /* Circle profile pic */
+}
+
+header h1 {
+    font-size: 2.5em; 
+    margin: 0.5em 0;
+}
+
+header h2 {
+    font-size: 1.75em; /*  smaller than h1 */
+    margin: 0.5em 0;
+    color: #555; /* Slightly lighter grey */
+}
+
+header h3 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+header h3 a {
+    color: #1a447a; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+header h3 a:hover {
+    color: #87ade7; /* light blue for hover on words portfolio /github /linkedin */
+}
+
+/* SECTION */
+section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px; /* Centering & max width */
+}
+
+section h2 {
+    font-size: 2em;
+    margin: 20px 0;
+    text-transform: uppercase; /* Uppercase text */
+    color: #444; /* Darker grey for headings */
+}
+
+/* LIST STYLE */
+ul, ol {
+    margin: 0;
+    padding: 0 0 0 20px; /* Indentation */
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* ASIDE */
+aside {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+aside div {
+    width: 45%; /* Flex items with space between */
+}
+
+aside h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse; /* remove space between borders */
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd; /*  border for table cells */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4; /* background for header */
+}
+
+/* FORM  */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* shadow  */
+    margin: 20px auto;
+    max-width: 600px; /* Centering/max width */
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    width: 100%; /* Full width inputs */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* rounded corners */
+}
+
+form button {
+    background-color: #1a73e8; /* Blue button background */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #155abf; /* Darker blue on hover */
+}
+
+/* FOOTER  */
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
 }
